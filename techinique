@@ -1,7 +1,14 @@
 
 /*
-    select even number
+    1. select even number
 */
 SELECT * 
 FROM table_name 
 WHERE mod(column_name,2) = 0;
+
+
+/*
+    2. PRINT unique output
+*/
+SELECT DISTINCT CITY 
+FROM table_name 
