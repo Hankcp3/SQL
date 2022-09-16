@@ -1,0 +1,7 @@
+
+/*
+    select even number
+*/
+SELECT * 
+FROM table_name 
+WHERE mod(column_name,2) = 0;
