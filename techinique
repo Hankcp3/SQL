@@ -12,3 +12,13 @@ WHERE mod(column_name,2) = 0;
 */
 SELECT DISTINCT CITY 
 FROM table_name 
+
+
+/*
+    3. select or order last 2/first 3 characters in name
+*/
+SELECT DISTINCT CITY 
+FROM table_name
+WHERE RIGHT(CITY,2) NOT IN ('A','e')
+ORDER BY LEFT(CITY,3) ASC, ID DESC;
+
