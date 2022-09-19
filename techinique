@@ -22,3 +22,9 @@ FROM table_name
 WHERE RIGHT(CITY,2) NOT IN ('A','e')
 ORDER BY LEFT(CITY,3) ASC, ID DESC;
 
+
+/*
+    4. replace
+*/
+SELECT CEIL(AVG(Salary) - AVG(REPLACE(Salary,'0',''))) FROM EMPLOYEES
+
