@@ -53,4 +53,7 @@ where c.company_code = l.company_code
     and m.manager_code=e.manager_code 
 group by c.company_code order by c.company_code;
 
+or use join
+
+
 
