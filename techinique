@@ -40,3 +40,8 @@ WHEN Occupation = 'Singer' THEN @r3:=@r3+1
 WHEN Occupation = 'Actor' THEN @r4:=@r4+1
 END AS 'Rownumber'
 
+/*
+    6. select * from differnet table
+*/
+
+
