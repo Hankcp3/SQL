@@ -1,0 +1,61 @@
+
+#From a dir right click 'Git bash here' to open git in this document.
+#check documents:
+$ ls  
+$ ls -lart  #more specific
+
+#look for help:
+$ ls --help
+
+#clear
+$clear
+
+#clone git document from cloud
+$ git clone https://HankeHu@bitbucket.org/hankehu/ift.git
+
+#jump to inner dir
+$cd ift
+
+#display the states of working directory
+$ git status
+
+#create dir
+$ mkdir DirOne
+
+#jump to DirOne
+$cd DirOne
+
+#To get Git to recognize an empty directory, the unwritten rule is to put a file named .gitkeep in it
+$ touch .gitkeep
+
+#try git status again
+$git status #it shows something is unvsaved on the git cloud
+
+#create document inside DirOne
+$ touch one.txt
+$ touch myPythonTest.py
+
+#edit txt doc
+$vi one.txt
+#type i meaning insert to insert content,
+#type Esc to exist, then type:
+:wq!  #to quit
+
+# Read the contents of file. txt and display them on the screen:
+$ cat one.txt
+
+#return to main Dir
+$ cd ..
+
+#the new (or untracked), deleted and modified files will be added to your Git staging area
+$ git add --all
+
+#upload to bitbucket
+$ git commit -m "it's just first test"  #add message on each commit
+$ git push -u origin master
+
+
+
+
+
+
