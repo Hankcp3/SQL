@@ -1,4 +1,4 @@
-
+10/13/2022
 #From a dir right click 'Git bash here' to open git in this document.
 #check documents:
 $ ls  
@@ -52,8 +52,15 @@ $ git add --all
 
 #upload to bitbucket
 $ git commit -m "it's just first test"  #add message on each commit
-$ git push -u origin master
+$ git push -u origin master #save change to master branch
 
+10/20/2022
+#Create a new feature
+$ git checkout -b "NewFeature"
+#switch to exist branch
+$ git checkout master
+#fully delete branch
+$ git branch -D maste
 
 
 
