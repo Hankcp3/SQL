@@ -13,6 +13,9 @@ $clear
 #clone git document from cloud
 $ git clone https://HankeHu@bitbucket.org/hankehu/ift.git
 
+#set up git repository locally
+$ git init
+
 #jump to inner dir
 $cd ift
 
