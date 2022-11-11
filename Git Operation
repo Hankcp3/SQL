@@ -56,6 +56,7 @@ $ git add --all
 #upload to bitbucket
 $ git commit -m "it's just first test"  #add message on each commit
 $ git push -u origin master #save change to master branch
+git push --set-upstream origin Hanke_Hu
 
 10/20/2022
 #Create a new feature
